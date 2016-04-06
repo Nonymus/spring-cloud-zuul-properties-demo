@@ -1,4 +1,9 @@
+# This does not work, but did before. Same for ignoredServices
 zuul:
   ignoredPatterns:
     - /foo
     - /bar
+# This works, but isn't the documented way in
+# https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html#boot-features-external-config-loading-yaml
+#zuul:
+#  ignoredPatterns: '/foo,/bar'
